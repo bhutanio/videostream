@@ -1,0 +1,17 @@
+/vendor
+/node_modules
+/bower_components
+/public/storage
+Homestead.yaml
+Homestead.json
+composer.phar
+composer.lock
+.env
+*.map
+/maintenance.txt
+/yarn-error.log
+
+/.idea
+/.phpstorm.meta.php
+/_ide_helper.php
+/_ide_helper_models.php
