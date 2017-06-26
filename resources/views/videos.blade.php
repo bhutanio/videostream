@@ -3,7 +3,6 @@
 @section('content')
     <h1 class="page-title">{{ meta()->pageTitle() }}</h1>
     <div class="block">
-        <div class="pull-right">{!! $videos->render() !!}</div>
         <div class="row">
             @foreach($videos as $video)
                 <div class="col-sm-6 col-md-4">
@@ -20,6 +19,7 @@
                     </div>
                 </div>
             @endforeach
+            <div class="col-sm-12 text-center">{!! $videos->render() !!}</div>
         </div>
     </div>
 @endsection
