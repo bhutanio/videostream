@@ -1,5 +1,7 @@
 ### VideoStream - Video Streaming site using Laravel and WebTorrent
 
+[![Dependency Status](https://gemnasium.com/badges/github.com/bhutanio/videostream.svg)](https://gemnasium.com/github.com/bhutanio/videostream)
+
 ### Requirement
 - [**PHP**](https://php.net) 5.6.4+ (**7+** preferred)
 - PHP Extensions: openssl, mcrypt, mbstring, phpredis and php-zip
